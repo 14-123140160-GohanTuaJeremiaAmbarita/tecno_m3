@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Si Lapor Cepat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Si Lapor Cepat</h1>
+      <form id="reportForm">
+        <input type="text" id="nama" placeholder="Nama Pelapor" required />
+        <input type="text" id="lokasi" placeholder="Lokasi Kejadian" required />
+        <textarea
+          id="deskripsi"
+          placeholder="Deskripsi Kejadian"
+          required
+        ></textarea>
+        <button type="submit">Kirim Laporan</button>
+      </form>
+      <h2>Daftar Laporan</h2>
+      <div id="reportList"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
